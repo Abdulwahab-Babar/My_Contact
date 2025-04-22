@@ -32,6 +32,11 @@
             <input type="text" name="phone" id="phone" class="w-full p-2 border rounded" value="{{ old('phone') }}" required>
         </div>
 
+        <div>
+            <label for="address" class="block font-medium">Address</label>
+            <input type="text" name="address" id="address" class="w-full p-2 border rounded" value="{{ old('address') }}" required>
+        </div>
+
         <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Save Contact</button>
     </form>
 </div>

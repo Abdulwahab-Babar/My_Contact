@@ -24,6 +24,7 @@
                                 <h3 class="text-xl font-semibold">{{ $contact->name }}</h3>
                                 <p>Email: {{ $contact->email }}</p>
                                 <p>Phone: {{ $contact->phone }}</p>
+                                <p>Address: {{ $contact->address }}</p>
                             </div>
                             <div class="space-x-2">
                                 <a href="{{ route('contacts.edit', $contact->id) }}" class="text-blue-500 underline">Edit</a>
